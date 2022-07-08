@@ -1,0 +1,21 @@
+{
+  "name": "fitbit-cli-water",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc",
+    "dev": "concurrently \"./node_modules/typescript/bin/tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Plsr",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "ts-node": "^10.8.2",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.9.10"
+  }
+}
